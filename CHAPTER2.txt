@@ -1,0 +1,4 @@
+Attached Property는 DependencyObject의 특별한 형태이다
+Grid.Row의 값을 지정할 때 parser는 Grid Class의 SetRow Method Call을 수행한다.
+그리고 Grid.SetRow(object, value) 형태이다.
+
