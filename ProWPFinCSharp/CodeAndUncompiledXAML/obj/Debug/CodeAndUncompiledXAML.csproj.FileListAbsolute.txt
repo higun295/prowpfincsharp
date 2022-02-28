@@ -1,0 +1,14 @@
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\bin\Debug\CodeAndUncompiledXAML.exe.config
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\bin\Debug\CodeAndUncompiledXAML.exe
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\bin\Debug\CodeAndUncompiledXAML.pdb
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\MainWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\App.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML_MarkupCompile.cache
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML_MarkupCompile.lref
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\MainWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.g.resources
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.Properties.Resources.resources
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.csproj.GenerateResource.cache
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.csproj.CoreCompileInputs.cache
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.exe
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\CodeAndUncompiledXAML\obj\Debug\CodeAndUncompiledXAML.pdb
