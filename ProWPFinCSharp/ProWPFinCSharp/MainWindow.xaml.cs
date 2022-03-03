@@ -21,9 +21,5 @@ namespace ProWPFinCSharp {
         public MainWindow() {
             InitializeComponent();
         }
-
-        private void cmdAnswer_Click(object sender, RoutedEventArgs e) {
-
-        }
     }
 }

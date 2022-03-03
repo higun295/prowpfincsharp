@@ -13,3 +13,4 @@ E:\Projects\ProWPFinCSharp\ProWPFinCSharp\ProWPFinCSharp\obj\Debug\ProWPFinCShar
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\ProWPFinCSharp\obj\Debug\ProWPFinCSharp.csproj.CoreCompileInputs.cache
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\ProWPFinCSharp\obj\Debug\ProWPFinCSharp.exe
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\ProWPFinCSharp\obj\Debug\ProWPFinCSharp.pdb
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\ProWPFinCSharp\obj\Debug\Window1.g.cs
