@@ -5,23 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chapter3_Layout"
         mc:Ignorable="d"
-        Title="Layout" Height="223" Width="354">
-    <StackPanel Margin="3">
-        <Label HorizontalAlignment="Center"
-               Margin="3">A Button Stack</Label>
-        <Button HorizontalAlignment="Left"
-                Margin="3"
-                MaxWidth="200"
-                MinWidth="100">Button 1</Button>
-        <Button HorizontalAlignment="Right"
-                Margin="3"
-                MaxWidth="200"
-                MinWidth="100">Button 2</Button>
-        <Button Margin="3"
-                MaxWidth="200"
-                MinWidth="100">Button 3</Button>
-        <Button Margin="3"
-                MaxWidth="200"
-                MinWidth="100">Button 4</Button>
-    </StackPanel>
+        Title="Layout" Height="223" Width="354"
+        WindowStartupLocation="CenterScreen">
+
+    <Border Margin="5"
+            Padding="5"
+            Background="LightYellow"
+            BorderBrush="SteelBlue"
+            BorderThickness="3 5 3 5"
+            CornerRadius="3">
+        <StackPanel Margin="3">
+            <Button Content="Wrap Panel"
+                    Click="Button_Click"/>
+            <Button Content="Dock Panel"
+                    Click="Button_Click_1"/>
+            <Button Content="Nesting Layout Containers"
+                    Click="Button_Click_2"/>
+        </StackPanel>
+    </Border>
 </Window>

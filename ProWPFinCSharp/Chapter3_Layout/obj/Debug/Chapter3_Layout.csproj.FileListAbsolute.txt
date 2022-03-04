@@ -12,3 +12,10 @@ E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Lay
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Layout.csproj.CoreCompileInputs.cache
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Layout.exe
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Layout.pdb
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Layout.csproj.AssemblyReference.cache
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\DockPanelWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\WrapPanelWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\DockPanelWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\WrapPanelWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\NestingLayoutContainersWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\NestingLayoutContainersWindow.baml

@@ -55,6 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Chapter3_Example\DockPanelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter3_Example\NestingLayoutContainersWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter3_Example\WrapPanelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +74,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter3_Example\DockPanelWindow.xaml.cs">
+      <DependentUpon>DockPanelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3_Example\NestingLayoutContainersWindow.xaml.cs">
+      <DependentUpon>NestingLayoutContainersWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3_Example\WrapPanelWindow.xaml.cs">
+      <DependentUpon>WrapPanelWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
