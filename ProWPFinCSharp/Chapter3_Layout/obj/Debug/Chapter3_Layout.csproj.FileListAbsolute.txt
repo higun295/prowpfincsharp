@@ -19,3 +19,9 @@ E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Exa
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\WrapPanelWindow.baml
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\NestingLayoutContainersWindow.g.cs
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\NestingLayoutContainersWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridWindow_2.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridWindow_2.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridSplitterWindow.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\GridSplitterWindow.baml

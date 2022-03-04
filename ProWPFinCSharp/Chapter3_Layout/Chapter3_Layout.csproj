@@ -59,6 +59,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Chapter3_Example\GridSplitterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter3_Example\GridWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter3_Example\GridWindow_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chapter3_Example\NestingLayoutContainersWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,6 +89,15 @@
     </Compile>
     <Compile Include="Chapter3_Example\DockPanelWindow.xaml.cs">
       <DependentUpon>DockPanelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3_Example\GridSplitterWindow.xaml.cs">
+      <DependentUpon>GridSplitterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3_Example\GridWindow.xaml.cs">
+      <DependentUpon>GridWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3_Example\GridWindow_2.xaml.cs">
+      <DependentUpon>GridWindow_2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Chapter3_Example\NestingLayoutContainersWindow.xaml.cs">
       <DependentUpon>NestingLayoutContainersWindow.xaml</DependentUpon>

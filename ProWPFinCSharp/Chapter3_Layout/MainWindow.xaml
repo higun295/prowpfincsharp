@@ -21,6 +21,14 @@
                     Click="Button_Click_1"/>
             <Button Content="Nesting Layout Containers"
                     Click="Button_Click_2"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Grid Window"
+                        Click="Button_Click_3"/>
+                <Button Content="Grid Window 2"
+                        Click="Button_Click_4"/>
+            </StackPanel>
+            <Button Content="Grid Splitter"
+                    Click="Button_Click_5"/>
         </StackPanel>
     </Border>
 </Window>

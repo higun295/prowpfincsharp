@@ -24,5 +24,20 @@ namespace Chapter3_Layout {
             NestingLayoutContainersWindow nestingLayoutContainersWindow = new NestingLayoutContainersWindow();
             nestingLayoutContainersWindow.ShowDialog();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e) {
+            GridWindow gridWindow = new GridWindow();
+            gridWindow.ShowDialog();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e) {
+            GridWindow_2 gridWindow2 = new GridWindow_2();
+            gridWindow2.ShowDialog();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e) {
+            GridSplitterWindow gridSplitterWindow = new GridSplitterWindow();
+            gridSplitterWindow.ShowDialog();
+        }
     }
 }
