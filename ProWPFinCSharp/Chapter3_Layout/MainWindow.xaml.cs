@@ -11,33 +11,38 @@ namespace Chapter3_Layout {
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
-            WrapPanelWindow wrapPanelWindow = new WrapPanelWindow();
-            wrapPanelWindow.ShowDialog();
+            WrapPanelWindow window = new WrapPanelWindow();
+            window.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e) {
-            DockPanelWindow dockPanelWindow = new DockPanelWindow();
-            dockPanelWindow.ShowDialog();
+            DockPanelWindow window = new DockPanelWindow();
+            window.ShowDialog();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e) {
-            NestingLayoutContainersWindow nestingLayoutContainersWindow = new NestingLayoutContainersWindow();
-            nestingLayoutContainersWindow.ShowDialog();
+            NestingLayoutContainersWindow window = new NestingLayoutContainersWindow();
+            window.ShowDialog();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e) {
-            GridWindow gridWindow = new GridWindow();
-            gridWindow.ShowDialog();
+            GridWindow window = new GridWindow();
+            window.ShowDialog();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e) {
-            GridWindow_2 gridWindow2 = new GridWindow_2();
-            gridWindow2.ShowDialog();
+            GridWindow_2 window = new GridWindow_2();
+            window.ShowDialog();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e) {
-            GridSplitterWindow gridSplitterWindow = new GridSplitterWindow();
-            gridSplitterWindow.ShowDialog();
+            GridSplitterWindow window = new GridSplitterWindow();
+            window.ShowDialog();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e) {
+            SharedSizeGroup window = new SharedSizeGroup();
+            window.ShowDialog();
         }
     }
 }
