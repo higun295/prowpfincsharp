@@ -31,3 +31,5 @@ E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Exa
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\CanvasWindow.baml
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\SharedSizeGroup.baml
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\UniformGridWindow.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\ColumnOfSettings.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\ColumnOfSettings.baml

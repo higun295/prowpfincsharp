@@ -54,5 +54,10 @@ namespace Chapter3_Layout {
             CanvasWindow window = new CanvasWindow();
             window.ShowDialog();
         }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e) {
+            ColumnOfSettings window = new ColumnOfSettings();
+            window.ShowDialog();
+        }
     }
 }

@@ -59,6 +59,10 @@
                 Content="Canvas Window"
                 Click="Button_Click_8"
                 />
+            <Button
+                Content="Column of Settings"
+                Click="Button_Click_9"
+                />
         </StackPanel>
     </Border>
 </Window>
