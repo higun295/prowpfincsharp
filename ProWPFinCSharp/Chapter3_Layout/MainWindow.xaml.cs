@@ -44,5 +44,15 @@ namespace Chapter3_Layout {
             SharedSizeGroup window = new SharedSizeGroup();
             window.ShowDialog();
         }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e) {
+            UniformGridWindow window = new UniformGridWindow();
+            window.ShowDialog();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e) {
+            CanvasWindow window = new CanvasWindow();
+            window.ShowDialog();
+        }
     }
 }
