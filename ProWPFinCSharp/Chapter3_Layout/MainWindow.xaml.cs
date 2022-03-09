@@ -59,5 +59,10 @@ namespace Chapter3_Layout {
             ColumnOfSettings window = new ColumnOfSettings();
             window.ShowDialog();
         }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e) {
+            DynamicContent window = new DynamicContent();
+            window.ShowDialog();
+        }
     }
 }

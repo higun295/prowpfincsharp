@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DB2CFBA-CBC8-4A61-AFF6-5BEB0E2424C2}</ProjectGuid>
+    <ProjectGuid>{A9B12798-FDE0-4AE4-BD34-EC834D7DFBEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Chapter3_Layout</RootNamespace>
-    <AssemblyName>Chapter3_Layout</AssemblyName>
+    <RootNamespace>Chapter4_DependencyProperties</RootNamespace>
+    <AssemblyName>Chapter4_DependencyProperties</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,52 +53,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Chapter3_Example\CanvasWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\ColumnOfSettings.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\DockPanelWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\DynamicContent.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\GridSplitterWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\GridWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\GridWindow_2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\NestingLayoutContainersWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\SharedSizeGroup.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\UniformGridWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Chapter3_Example\WrapPanelWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -106,39 +61,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Chapter3_Example\CanvasWindow.xaml.cs">
-      <DependentUpon>CanvasWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\ColumnOfSettings.xaml.cs">
-      <DependentUpon>ColumnOfSettings.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\DockPanelWindow.xaml.cs">
-      <DependentUpon>DockPanelWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\DynamicContent.xaml.cs">
-      <DependentUpon>DynamicContent.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\GridSplitterWindow.xaml.cs">
-      <DependentUpon>GridSplitterWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\GridWindow.xaml.cs">
-      <DependentUpon>GridWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\GridWindow_2.xaml.cs">
-      <DependentUpon>GridWindow_2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\NestingLayoutContainersWindow.xaml.cs">
-      <DependentUpon>NestingLayoutContainersWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\SharedSizeGroup.xaml.cs">
-      <DependentUpon>SharedSizeGroup.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\UniformGridWindow.xaml.cs">
-      <DependentUpon>UniformGridWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Chapter3_Example\WrapPanelWindow.xaml.cs">
-      <DependentUpon>WrapPanelWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

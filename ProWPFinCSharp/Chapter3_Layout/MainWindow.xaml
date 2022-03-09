@@ -63,6 +63,10 @@
                 Content="Column of Settings"
                 Click="Button_Click_9"
                 />
+            <Button
+                Content="Dynamic Content"
+                Click="Button_Click_10"
+                />
         </StackPanel>
     </Border>
 </Window>

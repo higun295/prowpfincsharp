@@ -33,3 +33,5 @@ E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Exa
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\UniformGridWindow.baml
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\ColumnOfSettings.g.cs
 E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\ColumnOfSettings.baml
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\DynamicContent.g.cs
+E:\Projects\ProWPFinCSharp\ProWPFinCSharp\Chapter3_Layout\obj\Debug\Chapter3_Example\DynamicContent.baml
