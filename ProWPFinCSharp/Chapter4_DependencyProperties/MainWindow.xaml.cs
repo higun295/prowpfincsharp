@@ -21,5 +21,10 @@ namespace Chapter4_DependencyProperties {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void Test() {
+            ComboBox comboBox = new ComboBox();
+            comboBox.SetValue(PasswordBox.PasswordCharProperty, "*");
+        }
     }
 }
