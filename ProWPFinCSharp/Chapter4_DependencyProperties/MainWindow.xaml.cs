@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -25,6 +26,19 @@ namespace Chapter4_DependencyProperties {
         private void Test() {
             ComboBox comboBox = new ComboBox();
             comboBox.SetValue(PasswordBox.PasswordCharProperty, "*");
+
+            FrameworkPropertyMetadata metadata = new FrameworkPropertyMetadata();
+            metadata.CoerceValueCallback = new CoerceValueCallback(CoerceMaximum);
+
+            DependencyProperty.Register("Maximum", typeof(double), typeof(RangeBase), metadata);
+        }
+
+        private static object CoerceMaximum(DependencyObject d, object value) {
+            RangeBase base1 = (RangeBase)d;
+            if(((double) value) < base1.Minimum) {
+                return base1.Minimum;
+            }
+            return value;
         }
     }
 }
