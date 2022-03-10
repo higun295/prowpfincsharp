@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter3_Layout", "Chapter3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4_DependencyProperties", "Chapter4_DependencyProperties\Chapter4_DependencyProperties.csproj", "{A9B12798-FDE0-4AE4-BD34-EC834D7DFBEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5_RoutedEvents", "Chapter5_RoutedEvents\Chapter5_RoutedEvents.csproj", "{0388E123-7F48-4F7F-9744-5FE1BFE8A0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A9B12798-FDE0-4AE4-BD34-EC834D7DFBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B12798-FDE0-4AE4-BD34-EC834D7DFBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B12798-FDE0-4AE4-BD34-EC834D7DFBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0388E123-7F48-4F7F-9744-5FE1BFE8A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0388E123-7F48-4F7F-9744-5FE1BFE8A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0388E123-7F48-4F7F-9744-5FE1BFE8A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0388E123-7F48-4F7F-9744-5FE1BFE8A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
