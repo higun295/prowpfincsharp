@@ -1,0 +1,38 @@
+Dependency Properties....
+Convention에 의해 ~Property라고 이름을 짓는다. 그리고 어느 클래스에서나 사용 가능해야 하기 때문에 static 으로 지정한다.
+그리고 readonly 키워드로만 정의된다. 이 말은 FrameworkElement의 static 생성자에서만 set 될 수 있다는 이야기.
+
+DependencyProperty는 직접적으로 instance화 할 수 없다. public 생성자가 없음.
+DependencyProperty instance는 static DependencyProperty.Register() method 에서만 가능.
+
+1. Defining a Dependency Property
+2. Registering a Dependency Property
+3. Adding a Property Wrapper
+
+Dependency Property는 핵심적인 2개의 behaviors를 통해 일을 하는데 Change Notification, Dynamic Value Resolution 이다.
+Dependency Property는 자동으로 value change에 대해 event를 fire하지 않는다. 대신에 OpPropertyChangedCallback이라는 protected 함수를 trigger한다. 이것은 2개의 WPF Service에 대해 정보를 전달한다. Data Binding, Triggers
+
+WPF property 체계는 final value로 가기 위해 일련의 과정을 거치는데 그 중에서도 base value를 결정짓는데 필요한 요소들이 있다.
+1. The default value (as set by the FrameworkPropertyMetadata object)
+2. The inherited value(if the FrameworkPropertyMetadata.Inherits flag is set and a value has been applied to an element somewhere up the containment hierarchy)
+3. The value from a theme style
+4. The value from a project style
+5. The local value(in other words, a value you've set directly on this object by using code or XAML)
+
+WPF가 위의 과정을 거치기는 하지만 base value에게 final value가 항상 필수인 것은 아니다. 다음은 property value를 결정하는 4가지의 과정이다.
+1. Determine the base value(앞서 언급했던 5개의 일련의 과정)
+2. If the property is set by using as expression, evaluate that expression. Currently, WPF supports two types of expressions : data binding and resources
+3. If this property is the target of animation, apply that animation.
+4. Run CoerceValueCallback to "correct" the value.
+
+Validation Property
+- ValidateValueCallback : new Value를 accept/reject할 수 있음. DependencyProperty.Register()의 argument로 넘길 수 있음
+- CoerceValueCallback : new value를 more acceptable한 것으로 바꿀 수 있음. 보통 동일한 object에 set된 value의 충돌을 다루기 위해 사용됨. 사용하기 위해서는 FrameworkPropertyMetadata 객체 생성자의 argument로 넘긴다. 
+
+DependencyProperty set을 시도할 때 일어나는 일의 순서
+1. CoerceValueCallback method가 제공받은 value에 대해 수정할 기회가 주어지거나 혹은 DependencyProperty.UnsetValue로 return을 진행한다
+2. ValidateValueCallback fired. 이 method는 value를 받아들이거나 거절하거나에 따라 true/false return. CoerceValueCallback 과는 다르게 Value에 직접적으로 관여하지 않음.
+3. 두 과정이 succeed라면 PropertyChangedCallback is triggered. 
+
+The Validation Callback
+The Coercion Callback

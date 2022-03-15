@@ -1,0 +1,35 @@
+DependencyProperty는 DependencyProperty.Register()을 이용하는 반면에 RoutedEvent는 EventManager.RegisterRoutedEvent()를 사용한다.
+
+여러 개의 Element가 있을 때 동시에 Event를 주고 다루고 싶다.
+몇가지 방법이 있는데 Direct Event, Bubbling Event, Tunnling Event가 있음.
+1. Direct Event : 하나의 Element 에서만 사용되고 어느 객체에도 Event를 전달하지 않음(ex. MouseEnter)
+2. Bubbling Event : 계층의 위로 가면서 Event를 수행한다. (ex. MouseDown) Element Click > Parent > Parent, and so on...
+3. Tunnling Event : 계층의 아래로 가면서 Event를 수행한다. (ex. PreviewKeyDown) Window > Children > Children, and so on...
+
+=========================================================================================================
+<Label
+        BorderBrush="Black"
+        BorderThickness="1"
+        >
+        <StackPanel>
+            <TextBlock
+                Margin="3"
+                Text="Image and text label"
+                />
+            <Image Stretch="None" />
+            <TextBlock
+                Margin="3"
+                Text="Countesy of the StackPanel"
+                />
+        </StackPanel>
+    </Label>  
+=========================================================================================================
+이런 예시에서
+MouseDown Event는 Image.MouseDown > StackPanel.MouseDown > Label.MouseDown 순서로 진행 Label 이후에는 다음 Control 진행
+WPF에서의 모든 event argument는 RoutedEventArgs를 상속받기 때문에 모든 EventHandler에서 확인 가능
+<RoutedEventArgs>
+1. Source : 어떤 객체에서 Event가 발생했는지... 
+2. OriginalSource : 보통은 Source와 동일. 그러나 몇몇 경우에 예를들어, 윈도우에 가까운 가장자리를 클릭했다고 하면 source : window, originalsource : border이 될 수 있다.
+3. RoutedEvent : EventHandler에 의해 triggered 된 event 객체.
+4. Handled : Bubbling/Tunneling 과정을 멈출 수 있다. Handled == true 이면 Bubbling/Tunnling 과정은 Stop한다.
+

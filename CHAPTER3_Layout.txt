@@ -1,0 +1,41 @@
+Elements 명시적으로 크기를 지정해서는 안된다.
+내부의 Content에 맞게 사이즈가 조절된다. 예를 들어, 버튼은 Content에 맞게 확장한다.
+Min, Max를 정해두는 편이 낫다.
+Hard-Coded된 Size, Position은 최악...
+
+Layout Containers는 내부 Children 사이의 사용 가능한 공간을 공유한다. 그리고 적절한 사이즈를 가능한 범위 안에서 각 Element에 분배한다.
+Layout Containers는 Nested 될 수 있다. 가장 전형적인 것이 Grid. 
+
+WPF Layout은 2단계로 이루어짐 : Measure => Arrange
+1. Measure Stage : Container는 Child를 돌면서 적합한 Size를 제공할지에 대해 Asking 한다.
+2. Arrange Stage : Container는 적합한 위치를 Chile Element에 제공한다.
+Container가 Chilld Element에 적합한 Size를 분배할 만큼 충분히 크지 않을 수도 있다. 보통 Minimum Window Size를 Set한다.
+Layout Container는 Scrolling을 지원하지 않음. 대신 ScrollViewer라는 특정 Content Control이 있다. 
+
+WPF의 모든 Layout Containers는 FrameworkElement의 추상 클래스인 Panel을 상속받는다.
+보통 3개의 Property가 있음. Background, Children, IsItemHost
+1. Background : Mouse Event를 받기 위해서는 이것을 Null로 두면 안됨.
+2. Children : Panel에 저장된 Items의 Collection이다.
+3. IsItemsHost : Panel이 ItemsControl에 생성된 Items의 Container인지 여부를 나타냄.
+
+Core Layout Panels : StackPanel, WrapPanel, DockPanel, Grid, UniformGrid, Canvas
+1. StackPanel : Place elements in a horizontal or vertical stack.
+2. WrapPanel : 수평방향이면 왼쪽에서 오른쪽 그리고 다음줄, 수직방향이면 위에서 아래 그리고 다음 컬럼
+3. DockPanel : Container의 전체 Edge에 맞게 정렬함
+4. Grid : Elements를 invisible table의 행과 열에 정렬.
+5. Uniform Grid : Elements를 invisible table에 같은 사이즈로 강제하여 배치.
+5. Canvas : 명확하게 고정된 좌표에 배치. resizable window에는 적합하지 않음.
+
+- StackPanel : onw HorizontalAlignment, VerticalAlignment를 갖고 있음. 기본적으로 둘 다 Stretch value를 갖고, Container를 채운다.
+- WrapPanel : 
+- DockPanel : 
+- Grid : 무엇보다 Grid가 짱임. 이 안에서 다 할 수 있음... Grid는 디자인 상으로 보이지 않지만 Grid.ShowGridLines를 사용해서 디버깅 모드에서만 나타나도록 생성하여 보면 편하다. Grid는 다른 WrapPanel, StackPanel과 같은 layout Container과는 다르게 암묵적으로 row, column이 생성되지 않는다. 그렇기 때문에 명시적으로 표시해줘야한다. 
+그리드는 3가지의 size 전략을 지원한다. Absolute Size, Automatic Size, Proportional Size.
+사용성과 유지보수 용이성을 위해 더 작은 Layout Container를 사용하는 것(한 가지의 task만 처리하는 StackPanel 등)
+GridSplitter를 사용할 때, Content가 있는 Cell안에 넣어두고 사용할 것. GridSplitter 전용 Column, Row를 생성해서 value를 Auto로 놓고 사용하는 것이 더 좋다.
+GridSplitter를 사용할 때, 보통 Row, Column 전체를 움직인다. ColumnSpan, RowSpan 등의 속성을 꼭 지정..
+GridSplitter를 사용할 때, 가장 작은 사이즈를 고정으로 주고 사용. 그리고 Alignment=Stretch.
+
+Shared Size Groups
+UniformGrid - 잘 사용하지 않음(거의... 사용 안함) 
+Canvas - ClipToBounds 속성을 true로 놓으면 Canvas 내부의 구성요소가 밖으로 넘어가지 않음. 다른 Layout Containers는 기본으로 이 속성을 갖고 있지만 Canvas 아니기 때문에... 
