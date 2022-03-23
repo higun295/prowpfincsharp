@@ -1,2 +1,4 @@
 가장 간단한 Binding Scenario는 source object가 WPF Element, source property가 dependency property일 때이다.
 Dependency Properties는 내부적으로 값의 변화에 대한 지원이 있기 때문에 value가 바뀌면 바로 변경된다.
+그래서 뭐 특별한 요구 조건 없이 바로 수행된다.
+

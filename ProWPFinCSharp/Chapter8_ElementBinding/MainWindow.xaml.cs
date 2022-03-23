@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Chapter8_ElementBinding {
     /// <summary>
@@ -20,6 +9,29 @@ namespace Chapter8_ElementBinding {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+
+            Binding binding = BindingOperations.GetBinding(valueTextBox, TextBlock.FontSizeProperty);
+        }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e) {
+            if(e.NewValue >= e.OldValue) {
+                valueTextBox.FontSize = valueTextBox.FontSize + e.NewValue;
+            }
+            else {
+                valueTextBox.FontSize = valueTextBox.FontSize - e.NewValue;
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            textSlider.Value += -1;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e) {
+            textSlider.Value = 10;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e) {
+            textSlider.Value += 1;
         }
     }
 }
