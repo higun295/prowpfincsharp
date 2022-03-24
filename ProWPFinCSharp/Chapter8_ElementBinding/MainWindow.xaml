@@ -35,6 +35,15 @@
             VerticalAlignment="Center"
             />
         <TextBlock
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="3"
+            Name="lblSampleText"
+            FontSize="{Binding ElementName=textSlider, Path=Value}"
+            Text="{Binding ElementName=valueTextBox, Path=Text}"
+            Foreground="{Binding ElementName=lstColors, Path=SelectedItem.Tag}"
+            />
+        <TextBlock
             x:Name="valueTextBox"
             Grid.Row="1"
             Grid.Column="1"
