@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5_RoutedEvents", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8_ElementBinding", "Chapter8_ElementBinding\Chapter8_ElementBinding.csproj", "{A40F7C54-6040-4613-9BEF-5682C2CE69D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismProject", "PrismProject\PrismProject.csproj", "{310A9C18-7EA4-4E53-96EF-BA8A8A1D63BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A40F7C54-6040-4613-9BEF-5682C2CE69D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40F7C54-6040-4613-9BEF-5682C2CE69D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40F7C54-6040-4613-9BEF-5682C2CE69D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310A9C18-7EA4-4E53-96EF-BA8A8A1D63BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310A9C18-7EA4-4E53-96EF-BA8A8A1D63BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310A9C18-7EA4-4E53-96EF-BA8A8A1D63BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310A9C18-7EA4-4E53-96EF-BA8A8A1D63BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
